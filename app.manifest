@@ -1,0 +1,22 @@
+{
+  "id":          "sdk.user.listmutationtest",
+  "name":        "List Mutation Test",
+  "view":        "appView.js",
+  "permissions": [],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-10-11",
+  "version":     "1.0.0",
+  "screens":     [
+    {
+      "id":       "screen1",
+      "chambers": [
+        {
+          "id":      "chamber1",
+          "js":      "MutationChamber.js",
+          "autorun": true,
+          "focus":   true
+        }
+      ]
+    }
+  ]
+}
